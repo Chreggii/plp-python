@@ -31,3 +31,11 @@ We propose to use [VS Code](https://code.visualstudio.com/) or [Pycharm](https:/
 ### Recommended Python VS Code Extensions
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+
+
+## Run "Hello World" in VS Code
+
+1. Create a file named `hello_world.py` with the content `print('Hello, world!')`
+2. Run the code by pressing the "Run Code" button (It requires that the extensions have been installed). ![Run Button](assets/vs_code_run_button.png)
+3. You should now see the output on the bottom of VS Code. ![Output](assets/vs_code_output.png)
+
