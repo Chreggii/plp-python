@@ -1,4 +1,4 @@
-# plp-python Tutorial
+# PLP Python Tutorial
 
 
 ## Setup and installation
@@ -24,6 +24,7 @@ Clone and install the repository which is needed to follow along our tutorial. S
 Once it is installed, simply head to the created folder by using the **cd** command.
 Once you are in the root folder, run the command **-r requirements.txt** to install the necessary dependencies for our exercises. 
 
+Note: We will write into the teams chat when the git pull is ready and then you can install the dependencies from the repository.
 
 ## IDE
 We propose to use [VS Code](https://code.visualstudio.com/) or [Pycharm](https://www.jetbrains.com/de-de/pycharm/) as IDE.
