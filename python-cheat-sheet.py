@@ -43,8 +43,8 @@ numbers.append(6)       # adds 6 to the end
 numbers.insert(0, 6)    # adds 6 at index position of 0
 numbers.remove(6)       # removes 6
 numbers.pop()           # removes the last item
+numbers.index(1)        # returns the index of first occurrence of 8
 numbers.clear()         # removes all the items
-numbers.index(8)        # returns the index of first occurrence of 8
 numbers.sort()          # sorts the list
 numbers.reverse()       # reverses the list
 numbers.copy()          # returns a copy of the list 
@@ -60,7 +60,7 @@ customer = {
 }
 
 customer['name'] # returns “John Smith”
-customer['type'] # throws an error
+# customer['type'] # throws an error
 customer.get('type', 'silver') # returns “silver”
 customer['name'] = 'new name'
 
