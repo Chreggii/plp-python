@@ -6,12 +6,12 @@ def my_decorator(func):
     return wrapper
 
 
-def say_helo():
+def say_hello():
     print("Hello")
 
 
-say_helo = my_decorator(say_helo)
-say_helo()
+say_hello = my_decorator(say_hello)
+say_hello()
 
 # -----------------------------------------------------------------------------------
 
@@ -25,8 +25,8 @@ def my_decorator(func):
 
 
 @my_decorator
-def say_helo():
+def say_hello():
     print("Hello")
 
 
-say_helo()
+say_hello()
