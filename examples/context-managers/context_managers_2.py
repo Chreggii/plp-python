@@ -18,7 +18,7 @@ class FileManager():
 
 
 # loading a file
-with FileManager('exercises/context-managers/test.txt', 'r') as f:
+with FileManager('examples/context-managers/test.txt', 'r') as f:
     print(f.read())
 
 print(f.closed)

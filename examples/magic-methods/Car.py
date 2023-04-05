@@ -1,10 +1,10 @@
 
 
-class Car:
+class Car(object):
     ## Same behavior as the new keyword in other languages like Java
     ## Gets called first when the class is instantiated
     ## returns the newly instantiated object
-    def __new__(cls):
+    def __new__(cls,name):
         print ("__new__ magic method is called")
         inst = object.__new__(cls)
         return inst
