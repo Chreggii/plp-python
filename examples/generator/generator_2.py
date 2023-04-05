@@ -2,7 +2,7 @@
 import sys
 
  
-# List comprehension  
+# A normal List comprehension  
 nums_squared_list = [i ** 2 for i in range(100)] 
 
 for i in nums_squared_list:

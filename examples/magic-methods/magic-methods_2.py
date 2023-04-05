@@ -1,8 +1,8 @@
 
 
-class A(object):
+class A():
     def __new__(cls):
-         print("Creating instance")
+         print("Creating object instance")
          return object.__new__(cls)
   
     def __init__(self):
